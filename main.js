@@ -7,10 +7,10 @@ function MassCalculation() {
     //console.log(typeof result, result)
     if (UsePercent.checked) {
         let resultPlus = result + result * InputPercent.value * 0.01;
-        Output.value = String(resultPlus+" g");
+        Output.value = resultPlus.toFixed(2)+" g";
     }
     else {
-        Output.value = String(result+" g")
+        Output.value = result.toFixed(2)+" g"
     }
 }
 
