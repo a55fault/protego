@@ -1,0 +1,15 @@
+ .OutputFrame {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgb(10, 10, 10);
+    background: rgb(129, 16, 173);
+    width: 200px;
+    height: 50px;
+ }
+
+ .count {
+    border: 1px solid rgb(10, 10, 10);
+    background: rgb(14, 226, 209);
+    width: 200px;
+ }

@@ -5,4 +5,5 @@ export let uiElements = {
     InputPercent: document.querySelector(".InputPercent"),
     ButtonDo: document.querySelector(".ButtonDo"),
     Output: document.querySelector(".output"),
+    UsePercent: document.querySelector(".UsePercent"),
 }
